@@ -37,6 +37,8 @@ ___
 + Potential solution- Issues with the URDF file. 
 
 2. Remove unncessary files from the package. 
+
+3. Add .rosinstall file instead of submodules
 ___
 
 ## Upcoming Tasks
