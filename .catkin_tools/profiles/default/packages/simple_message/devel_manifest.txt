@@ -1,8 +1,0 @@
-industrial_core/simple_message
-/home/aadityacr7/gsoc_2018/devel/.private/simple_message/lib/libsimple_message.so /home/aadityacr7/gsoc_2018/devel/lib/libsimple_message.so
-/home/aadityacr7/gsoc_2018/devel/.private/simple_message/lib/libsimple_message_bswap.so /home/aadityacr7/gsoc_2018/devel/lib/libsimple_message_bswap.so
-/home/aadityacr7/gsoc_2018/devel/.private/simple_message/lib/libsimple_message_float64.so /home/aadityacr7/gsoc_2018/devel/lib/libsimple_message_float64.so
-/home/aadityacr7/gsoc_2018/devel/.private/simple_message/lib/libsimple_message_dummy.so /home/aadityacr7/gsoc_2018/devel/lib/libsimple_message_dummy.so
-/home/aadityacr7/gsoc_2018/devel/.private/simple_message/lib/pkgconfig/simple_message.pc /home/aadityacr7/gsoc_2018/devel/lib/pkgconfig/simple_message.pc
-/home/aadityacr7/gsoc_2018/devel/.private/simple_message/share/simple_message/cmake/simple_messageConfig.cmake /home/aadityacr7/gsoc_2018/devel/share/simple_message/cmake/simple_messageConfig.cmake
-/home/aadityacr7/gsoc_2018/devel/.private/simple_message/share/simple_message/cmake/simple_messageConfig-version.cmake /home/aadityacr7/gsoc_2018/devel/share/simple_message/cmake/simple_messageConfig-version.cmake

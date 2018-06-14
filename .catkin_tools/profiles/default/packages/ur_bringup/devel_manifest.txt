@@ -1,4 +1,0 @@
-universal_robot/ur_bringup
-/home/aadityacr7/gsoc_2018/devel/.private/ur_bringup/lib/pkgconfig/ur_bringup.pc /home/aadityacr7/gsoc_2018/devel/lib/pkgconfig/ur_bringup.pc
-/home/aadityacr7/gsoc_2018/devel/.private/ur_bringup/share/ur_bringup/cmake/ur_bringupConfig-version.cmake /home/aadityacr7/gsoc_2018/devel/share/ur_bringup/cmake/ur_bringupConfig-version.cmake
-/home/aadityacr7/gsoc_2018/devel/.private/ur_bringup/share/ur_bringup/cmake/ur_bringupConfig.cmake /home/aadityacr7/gsoc_2018/devel/share/ur_bringup/cmake/ur_bringupConfig.cmake

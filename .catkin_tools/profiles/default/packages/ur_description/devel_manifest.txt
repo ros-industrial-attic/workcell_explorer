@@ -1,4 +1,0 @@
-universal_robot/ur_description
-/home/aadityacr7/gsoc_2018/devel/.private/ur_description/lib/pkgconfig/ur_description.pc /home/aadityacr7/gsoc_2018/devel/lib/pkgconfig/ur_description.pc
-/home/aadityacr7/gsoc_2018/devel/.private/ur_description/share/ur_description/cmake/ur_descriptionConfig-version.cmake /home/aadityacr7/gsoc_2018/devel/share/ur_description/cmake/ur_descriptionConfig-version.cmake
-/home/aadityacr7/gsoc_2018/devel/.private/ur_description/share/ur_description/cmake/ur_descriptionConfig.cmake /home/aadityacr7/gsoc_2018/devel/share/ur_description/cmake/ur_descriptionConfig.cmake
