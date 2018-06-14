@@ -1,8 +1,0 @@
-prefix=/home/aadityacr7/gsoc_2018/devel/.private/ur3_moveit_config
-
-Name: ur3_moveit_config
-Description: Description of ur3_moveit_config
-Version: 1.2.1
-Cflags: 
-Libs: -L/home/aadityacr7/gsoc_2018/devel/.private/ur3_moveit_config/lib 
-Requires: 

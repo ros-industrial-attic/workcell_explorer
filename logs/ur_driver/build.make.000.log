@@ -1,5 +1,0 @@
-[35m[1mScanning dependencies of target ur_driver_gencfg[0m
-[100%] [34m[1mGenerating dynamic reconfigure files from cfg/URDriver.cfg: /home/aadityacr7/gsoc_2018/devel/.private/ur_driver/include/ur_driver/URDriverConfig.h /home/aadityacr7/gsoc_2018/devel/.private/ur_driver/lib/python2.7/dist-packages/ur_driver/cfg/URDriverConfig.py[0m
-Generating reconfiguration files for URDriver in ur_driver
-Wrote header file in /home/aadityacr7/gsoc_2018/devel/.private/ur_driver/include/ur_driver/URDriverConfig.h
-[100%] Built target ur_driver_gencfg

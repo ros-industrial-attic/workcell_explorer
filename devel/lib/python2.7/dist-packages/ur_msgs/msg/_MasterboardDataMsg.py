@@ -1,1 +1,0 @@
-/home/aadityacr7/gsoc_2018/devel/.private/ur_msgs/lib/python2.7/dist-packages/ur_msgs/msg/_MasterboardDataMsg.py

@@ -1,8 +1,0 @@
-prefix=/home/aadityacr7/gsoc_2018/devel/.private/myworkcell_moveit_config
-
-Name: myworkcell_moveit_config
-Description: Description of myworkcell_moveit_config
-Version: 0.3.0
-Cflags: 
-Libs: -L/home/aadityacr7/gsoc_2018/devel/.private/myworkcell_moveit_config/lib 
-Requires: 

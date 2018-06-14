@@ -1,8 +1,0 @@
-prefix=/home/aadityacr7/gsoc_2018/devel/.private/ur_gazebo
-
-Name: ur_gazebo
-Description: Description of ur_gazebo
-Version: 1.2.1
-Cflags: 
-Libs: -L/home/aadityacr7/gsoc_2018/devel/.private/ur_gazebo/lib 
-Requires: 

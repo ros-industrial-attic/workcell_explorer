@@ -1,8 +1,0 @@
-prefix=/home/aadityacr7/gsoc_2018/devel/.private/simple_message
-
-Name: simple_message
-Description: Description of simple_message
-Version: 0.5.1
-Cflags: -I/home/aadityacr7/gsoc_2018/src/industrial_core/simple_message/include
-Libs: -L/home/aadityacr7/gsoc_2018/devel/.private/simple_message/lib -lsimple_message_dummy
-Requires: roscpp industrial_msgs

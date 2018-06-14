@@ -1,1 +1,0 @@
-/home/aadityacr7/gsoc_2018/devel/.private/industrial_msgs/share/roseus/ros/industrial_msgs/srv/CmdJointTrajectory.l

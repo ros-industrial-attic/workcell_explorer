@@ -1,1 +1,0 @@
-/home/aadityacr7/gsoc_2018/devel/.private/myworkcell_core/share/gennodejs/ros/myworkcell_core/srv/_index.js

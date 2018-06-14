@@ -1,5 +1,0 @@
-[35m[1mScanning dependencies of target industrial_utils[0m
-[ 33%] [32mBuilding CXX object CMakeFiles/industrial_utils.dir/src/utils.cpp.o[0m
-[ 66%] [32mBuilding CXX object CMakeFiles/industrial_utils.dir/src/param_utils.cpp.o[0m
-[100%] [32m[1mLinking CXX shared library /home/aadityacr7/gsoc_2018/devel/.private/industrial_utils/lib/libindustrial_utils.so[0m
-[100%] Built target industrial_utils
