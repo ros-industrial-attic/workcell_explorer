@@ -1,0 +1,9 @@
+Symlinking /home/aadityacr7/gsoc_2018/devel/lib/libur5_moveit_plugin.so
+Symlinking /home/aadityacr7/gsoc_2018/devel/lib/libur3_moveit_plugin.so
+Symlinking /home/aadityacr7/gsoc_2018/devel/lib/libur10_kin.so
+Symlinking /home/aadityacr7/gsoc_2018/devel/lib/libur3_kin.so
+Symlinking /home/aadityacr7/gsoc_2018/devel/lib/libur5_kin.so
+Symlinking /home/aadityacr7/gsoc_2018/devel/lib/libur10_moveit_plugin.so
+Symlinking /home/aadityacr7/gsoc_2018/devel/lib/pkgconfig/ur_kinematics.pc
+Symlinking /home/aadityacr7/gsoc_2018/devel/share/ur_kinematics/cmake/ur_kinematicsConfig-version.cmake
+Symlinking /home/aadityacr7/gsoc_2018/devel/share/ur_kinematics/cmake/ur_kinematicsConfig.cmake

@@ -1,0 +1,10 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: myworkcell_support
+    relative_path: urdf/workcell_gazebo_trial1.urdf
+  SRDF:
+    relative_path: config/myworkcell.srdf
+  CONFIG:
+    author_name: "Aaditya Saraiya "
+    author_email: ros-industrial@todo.todo
+    generated_timestamp: 1527732811

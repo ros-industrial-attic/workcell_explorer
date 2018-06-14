@@ -1,0 +1,33 @@
+<launch>
+  <arg name="gui" default="true"/>
+  <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find myworkcell_support)/urdf/workcell_gazebo_trial1.urdf'" /> 
+  <param name="use_gui" value="$(arg gui)"/>
+
+<!--
+  <node name="rviz" pkg="rviz" type="rviz" if="$(arg gui)"/>
+
+-->
+
+<!--  
+ <node pkg="openni_camera" type="openni_node" name="openni_camera" output="screen" respawn="true" >
+    <param name="device_type" value="1" />
+    <param name="registration_type" value="1" />
+    <param name="point_cloud_resolution" value="1" />
+    <param name="openni_depth_optical_frame" value="camera_depth_optical_frame" />
+    <param name="openni_rgb_optical_frame" value="camera_rgb_optical_frame" />
+    <param name="image_input_format" value="5" />
+    <rosparam command="load" file="$(find openni_camera)/info/openni_params.yaml" />
+  </node>
+
+ -->
+
+<!--
+  <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher_1" />
+
+   <node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher" >
+     <param name="use_gui" value="True"/>
+   </node>
+
+-->
+
+</launch>

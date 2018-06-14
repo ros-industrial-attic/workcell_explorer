@@ -1,0 +1,8 @@
+prefix=/home/aadityacr7/gsoc_2018/install
+
+Name: ur10_moveit_config
+Description: Description of ur10_moveit_config
+Version: 1.2.1
+Cflags: 
+Libs: -L/home/aadityacr7/gsoc_2018/install/lib 
+Requires: 

@@ -1,0 +1,46 @@
+[  0%] Built target _rtabmap_ros_generate_messages_check_deps_NodeData
+[  0%] Built target _rtabmap_ros_generate_messages_check_deps_Point3f
+[  0%] Built target _rtabmap_ros_generate_messages_check_deps_Point2f
+[  0%] Built target _rtabmap_ros_generate_messages_check_deps_MapData
+[  0%] Built target _rtabmap_ros_generate_messages_check_deps_ResetPose
+[  0%] Built target _rtabmap_ros_generate_messages_check_deps_SetLabel
+[  0%] Built target _rtabmap_ros_generate_messages_check_deps_Info
+[  0%] Built target _rtabmap_ros_generate_messages_check_deps_ListLabels
+[  0%] Built target _rtabmap_ros_generate_messages_check_deps_Link
+[  0%] Built target _rtabmap_ros_generate_messages_check_deps_RGBDImage
+[  0%] Built target _rtabmap_ros_generate_messages_check_deps_PublishMap
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target _rtabmap_ros_generate_messages_check_deps_SetGoal
+[  0%] Built target _rtabmap_ros_generate_messages_check_deps_OdomInfo
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target _rtabmap_ros_generate_messages_check_deps_KeyPoint
+[  0%] Built target _rtabmap_ros_generate_messages_check_deps_UserData
+[  0%] Built target _rtabmap_ros_generate_messages_check_deps_GetMap
+[  0%] Built target rtabmap_ros_gencfg
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target _rtabmap_ros_generate_messages_check_deps_MapGraph
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target _rtabmap_ros_generate_messages_check_deps_Goal
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+make[2]: *** No rule to make target '/opt/ros/kinetic/lib/libfreenect.so', needed by '/home/aadityacr7/gsoc_2018/devel/.private/rtabmap_ros/lib/rtabmap_ros/rgbdicp_odometry'.  Stop.
+CMakeFiles/Makefile2:294: recipe for target 'CMakeFiles/rgbdicp_odometry.dir/all' failed
+make[1]: *** [CMakeFiles/rgbdicp_odometry.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** No rule to make target '/opt/ros/kinetic/lib/libfreenect.so', needed by '/home/aadityacr7/gsoc_2018/devel/.private/rtabmap_ros/lib/rtabmap_ros/stereo_odometry'.  Stop.
+CMakeFiles/Makefile2:331: recipe for target 'CMakeFiles/stereo_odometry.dir/all' failed
+make[1]: *** [CMakeFiles/stereo_odometry.dir/all] Error 2
+make[2]: *** No rule to make target '/opt/ros/kinetic/lib/libfreenect.so', needed by '/home/aadityacr7/gsoc_2018/devel/.private/rtabmap_ros/lib/rtabmap_ros/rgbd_odometry'.  Stop.
+CMakeFiles/Makefile2:368: recipe for target 'CMakeFiles/rgbd_odometry.dir/all' failed
+Makefile:138: recipe for target 'all' failed
+make[1]: *** [CMakeFiles/rgbd_odometry.dir/all] Error 2
+make: *** [all] Error 2

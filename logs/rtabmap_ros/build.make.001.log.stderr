@@ -1,0 +1,8 @@
+make[2]: *** No rule to make target '/opt/ros/kinetic/lib/libfreenect.so', needed by '/home/aadityacr7/gsoc_2018/devel/.private/rtabmap_ros/lib/rtabmap_ros/rgbdicp_odometry'.  Stop.
+make[1]: *** [CMakeFiles/rgbdicp_odometry.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** No rule to make target '/opt/ros/kinetic/lib/libfreenect.so', needed by '/home/aadityacr7/gsoc_2018/devel/.private/rtabmap_ros/lib/rtabmap_ros/stereo_odometry'.  Stop.
+make[1]: *** [CMakeFiles/stereo_odometry.dir/all] Error 2
+make[2]: *** No rule to make target '/opt/ros/kinetic/lib/libfreenect.so', needed by '/home/aadityacr7/gsoc_2018/devel/.private/rtabmap_ros/lib/rtabmap_ros/rgbd_odometry'.  Stop.
+make[1]: *** [CMakeFiles/rgbd_odometry.dir/all] Error 2
+make: *** [all] Error 2

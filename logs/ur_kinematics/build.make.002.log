@@ -1,0 +1,6 @@
+[ 16%] Built target ur10_kin
+[ 33%] Built target ur5_kin
+[ 50%] Built target ur3_kin
+[ 66%] Built target ur10_moveit_plugin
+[ 83%] Built target ur5_moveit_plugin
+[100%] Built target ur3_moveit_plugin

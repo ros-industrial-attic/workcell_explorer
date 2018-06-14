@@ -1,0 +1,8 @@
+prefix=/home/aadityacr7/gsoc_2018/devel/.private/ur_msgs
+
+Name: ur_msgs
+Description: Description of ur_msgs
+Version: 1.2.1
+Cflags: -I/home/aadityacr7/gsoc_2018/devel/.private/ur_msgs/include
+Libs: -L/home/aadityacr7/gsoc_2018/devel/.private/ur_msgs/lib 
+Requires: message_runtime std_msgs

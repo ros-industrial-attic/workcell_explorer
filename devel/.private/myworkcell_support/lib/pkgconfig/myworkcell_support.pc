@@ -1,0 +1,8 @@
+prefix=/home/aadityacr7/gsoc_2018/devel/.private/myworkcell_support
+
+Name: myworkcell_support
+Description: Description of myworkcell_support
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/aadityacr7/gsoc_2018/devel/.private/myworkcell_support/lib 
+Requires: 

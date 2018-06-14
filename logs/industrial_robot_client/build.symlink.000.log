@@ -1,0 +1,13 @@
+Symlinking /home/aadityacr7/gsoc_2018/devel/lib/libindustrial_robot_client_dummy.so
+Symlinking /home/aadityacr7/gsoc_2018/devel/lib/libindustrial_robot_client_bswap.so
+Symlinking /home/aadityacr7/gsoc_2018/devel/lib/libindustrial_robot_client.so
+Symlinking /home/aadityacr7/gsoc_2018/devel/lib/pkgconfig/industrial_robot_client.pc
+Symlinking /home/aadityacr7/gsoc_2018/devel/lib/industrial_robot_client/motion_download_interface
+Symlinking /home/aadityacr7/gsoc_2018/devel/lib/industrial_robot_client/joint_trajectory_action
+Symlinking /home/aadityacr7/gsoc_2018/devel/lib/industrial_robot_client/motion_download_interface_bswap
+Symlinking /home/aadityacr7/gsoc_2018/devel/lib/industrial_robot_client/robot_state_bswap
+Symlinking /home/aadityacr7/gsoc_2018/devel/lib/industrial_robot_client/motion_streaming_interface
+Symlinking /home/aadityacr7/gsoc_2018/devel/lib/industrial_robot_client/robot_state
+Symlinking /home/aadityacr7/gsoc_2018/devel/lib/industrial_robot_client/motion_streaming_interface_bswap
+Symlinking /home/aadityacr7/gsoc_2018/devel/share/industrial_robot_client/cmake/industrial_robot_clientConfig.cmake
+Symlinking /home/aadityacr7/gsoc_2018/devel/share/industrial_robot_client/cmake/industrial_robot_clientConfig-version.cmake

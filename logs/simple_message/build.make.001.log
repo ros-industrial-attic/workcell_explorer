@@ -1,0 +1,24 @@
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  3%] Built target simple_message_dummy
+[  3%] Built target industrial_msgs_generate_messages_cpp
+[  3%] Built target trajectory_msgs_generate_messages_py
+[  3%] Built target std_msgs_generate_messages_lisp
+[  3%] Built target geometry_msgs_generate_messages_lisp
+[  3%] Built target industrial_msgs_generate_messages_eus
+[  3%] Built target geometry_msgs_generate_messages_eus
+[  3%] Built target trajectory_msgs_generate_messages_eus
+[  3%] Built target std_msgs_generate_messages_cpp
+[  3%] Built target industrial_msgs_generate_messages_lisp
+[  3%] Built target industrial_msgs_generate_messages_nodejs
+[  3%] Built target industrial_msgs_generate_messages_py
+[  3%] Built target trajectory_msgs_generate_messages_lisp
+[  3%] Built target geometry_msgs_generate_messages_nodejs
+[  3%] Built target trajectory_msgs_generate_messages_nodejs
+[  3%] Built target std_msgs_generate_messages_nodejs
+[  3%] Built target trajectory_msgs_generate_messages_cpp
+[  3%] Built target geometry_msgs_generate_messages_cpp
+[ 35%] Built target simple_message
+[ 67%] Built target simple_message_float64
+[100%] Built target simple_message_bswap

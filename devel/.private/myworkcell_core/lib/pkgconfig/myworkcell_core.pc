@@ -1,0 +1,8 @@
+prefix=/home/aadityacr7/gsoc_2018/devel/.private/myworkcell_core
+
+Name: myworkcell_core
+Description: Description of myworkcell_core
+Version: 0.0.0
+Cflags: -I/home/aadityacr7/gsoc_2018/devel/.private/myworkcell_core/include
+Libs: -L/home/aadityacr7/gsoc_2018/devel/.private/myworkcell_core/lib 
+Requires: roscpp fake_ar_publisher message_runtime geometry_msgs tf moveit_ros_planning_interface

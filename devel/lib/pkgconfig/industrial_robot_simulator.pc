@@ -1,0 +1,1 @@
+/home/aadityacr7/gsoc_2018/devel/.private/industrial_robot_simulator/lib/pkgconfig/industrial_robot_simulator.pc

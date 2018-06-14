@@ -1,0 +1,7 @@
+[35m[1mScanning dependencies of target industrial_trajectory_filters[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/industrial_trajectory_filters.dir/src/n_point_filter.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/industrial_trajectory_filters.dir/src/uniform_sample_filter.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/industrial_trajectory_filters.dir/src/add_smoothing_filter.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/industrial_trajectory_filters.dir/src/smoothing_trajectory_filter.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/aadityacr7/gsoc_2018/devel/.private/industrial_trajectory_filters/lib/libindustrial_trajectory_filters.so[0m
+[100%] Built target industrial_trajectory_filters

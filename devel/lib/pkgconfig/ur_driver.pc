@@ -1,0 +1,1 @@
+/home/aadityacr7/gsoc_2018/devel/.private/ur_driver/lib/pkgconfig/ur_driver.pc

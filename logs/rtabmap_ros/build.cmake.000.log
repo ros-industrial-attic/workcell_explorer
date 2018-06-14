@@ -1,0 +1,82 @@
+Not searching for unused variables given on the command line.
+[36m--[0m The C compiler identification is GNU 5.4.0
+[36m--[0m The CXX compiler identification is GNU 5.4.0
+[36m--[0m Check for working C compiler: /usr/bin/cc
+[36m--[0m Check for working C compiler: /usr/bin/cc -- works
+[36m--[0m Detecting C compiler ABI info
+[36m--[0m Detecting C compiler ABI info - done
+[36m--[0m Detecting C compile features
+[36m--[0m Detecting C compile features - done
+[36m--[0m Check for working CXX compiler: /usr/bin/c++
+[36m--[0m Check for working CXX compiler: /usr/bin/c++ -- works
+[36m--[0m Detecting CXX compiler ABI info
+[36m--[0m Detecting CXX compiler ABI info - done
+[36m--[0m Detecting CXX compile features
+[36m--[0m Detecting CXX compile features - done
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/aadityacr7/gsoc_2018/devel/.private/rtabmap_ros
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/aadityacr7/gsoc_2018/devel;/home/aadityacr7/ros_i/devel;/home/aadityacr7/catkin_ws_rosin/devel;/opt/ros/kinetic
+[36m--[0m This workspace overlays: /home/aadityacr7/gsoc_2018/devel;/home/aadityacr7/ros_i/devel;/home/aadityacr7/catkin_ws_rosin/devel;/opt/ros/kinetic
+[36m--[0m Found PythonInterp: /usr/bin/python (found version "2.7.12")
+[36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python
+[36m--[0m Using Debian Python package layout
+[36m--[0m Using empy: /usr/bin/empy
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/aadityacr7/gsoc_2018/build/rtabmap_ros/test_results
+[36m--[0m Found gmock sources under '/usr/src/gmock': gmock will be built
+[36m--[0m Looking for pthread.h
+[36m--[0m Looking for pthread.h - found
+[36m--[0m Looking for pthread_create
+[36m--[0m Looking for pthread_create - not found
+[36m--[0m Looking for pthread_create in pthreads
+[36m--[0m Looking for pthread_create in pthreads - not found
+[36m--[0m Looking for pthread_create in pthread
+[36m--[0m Looking for pthread_create in pthread - found
+[36m--[0m Found Threads: TRUE
+[36m--[0m Found gtest sources under '/usr/src/gmock': gtests will be built
+[36m--[0m Using Python nosetests: /usr/bin/nosetests-2.7
+[36m--[0m catkin 0.7.11
+[36m--[0m Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[33m[1mCMake Warning[0m at /home/aadityacr7/gsoc_2018/src/rtabmap_ros/CMakeLists.txt:15 (find_package):
+  By not providing "Findcostmap_2d.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "costmap_2d", but CMake did not find one.
+
+  Could not find a package configuration file provided by "costmap_2d" with
+  any of the following names:
+
+    costmap_2dConfig.cmake
+    costmap_2d-config.cmake
+
+  Add the installation prefix of "costmap_2d" to CMAKE_PREFIX_PATH or set
+  "costmap_2d_DIR" to a directory containing one of the above files.  If
+  "costmap_2d" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+[33m[1mCMake Warning[0m at /home/aadityacr7/gsoc_2018/src/rtabmap_ros/CMakeLists.txt:16 (find_package):
+  By not providing "Findoctomap_ros.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "octomap_ros", but CMake did not find one.
+
+  Could not find a package configuration file provided by "octomap_ros" with
+  any of the following names:
+
+    octomap_rosConfig.cmake
+    octomap_ros-config.cmake
+
+  Add the installation prefix of "octomap_ros" to CMAKE_PREFIX_PATH or set
+  "octomap_ros_DIR" to a directory containing one of the above files.  If
+  "octomap_ros" provides a separate development package or SDK, be sure it
+  has been installed.
+
+
+[36m--[0m Found RTABMap: /usr/local/lib/librtabmap_core.so;/usr/local/lib/librtabmap_utilite.so;/usr/local/lib/librtabmap_gui.so;/usr/lib/x86_64-linux-gnu/libz.so;/opt/ros/kinetic/lib/libg2o_core.so;/opt/ros/kinetic/lib/libg2o_types_slam2d.so;/opt/ros/kinetic/lib/libg2o_types_slam3d.so;/opt/ros/kinetic/lib/libg2o_types_sba.so;/opt/ros/kinetic/lib/libg2o_stuff.so;/opt/ros/kinetic/lib/libg2o_solver_csparse.so;/opt/ros/kinetic/lib/libg2o_csparse_extension.so;/usr/lib/x86_64-linux-gnu/libcxsparse.so;/opt/ros/kinetic/lib/libg2o_solver_cholmod.so;/usr/lib/x86_64-linux-gnu/libcholmod.so;/opt/ros/kinetic/lib/libfreenect.so;/opt/ros/kinetic/lib/libfreenect_sync.so;/usr/lib/x86_64-linux-gnu/libOpenCL.so;/home/aadityacr7/freenect2/lib/libfreenect2.so;pthread;/usr/lib/libOpenNI2.so;/usr/lib/x86_64-linux-gnu/libdc1394.so;/opt/ros/kinetic/lib/librealsense.so;/opt/ros/kinetic/lib/liboctomap.so;/opt/ros/kinetic/lib/liboctomath.so (Required is at least version "0.13.2")
+[36m--[0m Found OpenCV: /opt/ros/kinetic (found version "3.3.1")
+[36m--[0m checking for module 'OGRE'
+[36m--[0m   found OGRE, version 1.9.0
+[36m--[0m rtabmap_ros: 12 messages, 6 services
+[36m--[0m WITH rviz
+[36m--[0m Configuring done
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /home/aadityacr7/gsoc_2018/build/rtabmap_ros

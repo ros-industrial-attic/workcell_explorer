@@ -1,0 +1,8 @@
+prefix=/home/aadityacr7/gsoc_2018/devel/.private/industrial_utils
+
+Name: industrial_utils
+Description: Description of industrial_utils
+Version: 0.5.1
+Cflags: -I/home/aadityacr7/gsoc_2018/src/industrial_core/industrial_utils/include
+Libs: -L/home/aadityacr7/gsoc_2018/devel/.private/industrial_utils/lib -lindustrial_utils
+Requires: roscpp urdf

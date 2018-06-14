@@ -1,0 +1,4 @@
+universal_robot/ur5_moveit_config
+/home/aadityacr7/gsoc_2018/devel/.private/ur5_moveit_config/lib/pkgconfig/ur5_moveit_config.pc /home/aadityacr7/gsoc_2018/devel/lib/pkgconfig/ur5_moveit_config.pc
+/home/aadityacr7/gsoc_2018/devel/.private/ur5_moveit_config/share/ur5_moveit_config/cmake/ur5_moveit_configConfig.cmake /home/aadityacr7/gsoc_2018/devel/share/ur5_moveit_config/cmake/ur5_moveit_configConfig.cmake
+/home/aadityacr7/gsoc_2018/devel/.private/ur5_moveit_config/share/ur5_moveit_config/cmake/ur5_moveit_configConfig-version.cmake /home/aadityacr7/gsoc_2018/devel/share/ur5_moveit_config/cmake/ur5_moveit_configConfig-version.cmake

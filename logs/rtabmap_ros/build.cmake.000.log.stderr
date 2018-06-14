@@ -1,0 +1,34 @@
+[33m[1mCMake Warning[0m at /home/aadityacr7/gsoc_2018/src/rtabmap_ros/CMakeLists.txt:15 (find_package):
+  By not providing "Findcostmap_2d.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "costmap_2d", but CMake did not find one.
+
+  Could not find a package configuration file provided by "costmap_2d" with
+  any of the following names:
+
+    costmap_2dConfig.cmake
+    costmap_2d-config.cmake
+
+  Add the installation prefix of "costmap_2d" to CMAKE_PREFIX_PATH or set
+  "costmap_2d_DIR" to a directory containing one of the above files.  If
+  "costmap_2d" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+[33m[1mCMake Warning[0m at /home/aadityacr7/gsoc_2018/src/rtabmap_ros/CMakeLists.txt:16 (find_package):
+  By not providing "Findoctomap_ros.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "octomap_ros", but CMake did not find one.
+
+  Could not find a package configuration file provided by "octomap_ros" with
+  any of the following names:
+
+    octomap_rosConfig.cmake
+    octomap_ros-config.cmake
+
+  Add the installation prefix of "octomap_ros" to CMAKE_PREFIX_PATH or set
+  "octomap_ros_DIR" to a directory containing one of the above files.  If
+  "octomap_ros" provides a separate development package or SDK, be sure it
+  has been installed.
+
+

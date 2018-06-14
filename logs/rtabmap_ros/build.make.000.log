@@ -1,0 +1,207 @@
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_SetLabel[0m
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_NodeData[0m
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_ListLabels[0m
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_ResetPose[0m
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_Info[0m
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_MapData[0m
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_Point2f[0m
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_Point3f[0m
+[  0%] Built target _rtabmap_ros_generate_messages_check_deps_ResetPose
+[  0%] Built target _rtabmap_ros_generate_messages_check_deps_NodeData
+[  0%] Built target _rtabmap_ros_generate_messages_check_deps_Point2f
+[  0%] Built target _rtabmap_ros_generate_messages_check_deps_Point3f
+[  0%] Built target _rtabmap_ros_generate_messages_check_deps_MapData
+[  0%] Built target _rtabmap_ros_generate_messages_check_deps_SetLabel
+[  0%] Built target _rtabmap_ros_generate_messages_check_deps_ListLabels
+[  0%] Built target _rtabmap_ros_generate_messages_check_deps_Info
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_RGBDImage[0m
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_SetGoal[0m
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_Link[0m
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_PublishMap[0m
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_UserData[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_OdomInfo[0m
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_KeyPoint[0m
+[  0%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_GetMap[0m
+[  0%] Built target _rtabmap_ros_generate_messages_check_deps_PublishMap
+[  0%] Built target _rtabmap_ros_generate_messages_check_deps_RGBDImage
+[  0%] Built target _rtabmap_ros_generate_messages_check_deps_SetGoal
+[  0%] Built target _rtabmap_ros_generate_messages_check_deps_Link
+[  0%] Built target _rtabmap_ros_generate_messages_check_deps_UserData
+[  0%] Built target _rtabmap_ros_generate_messages_check_deps_OdomInfo
+[  0%] Built target _rtabmap_ros_generate_messages_check_deps_KeyPoint
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_Goal[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target _rtabmap_ros_generate_messages_check_deps_MapGraph[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target rtabmap_ros_gencfg[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] [34m[1mGenerating dynamic reconfigure files from cfg/Camera.cfg: /home/aadityacr7/gsoc_2018/devel/.private/rtabmap_ros/include/rtabmap_ros/CameraConfig.h /home/aadityacr7/gsoc_2018/devel/.private/rtabmap_ros/lib/python2.7/dist-packages/rtabmap_ros/cfg/CameraConfig.py[0m
+[  0%] Built target _rtabmap_ros_generate_messages_check_deps_GetMap
+[  0%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target _rtabmap_ros_generate_messages_check_deps_Goal
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target _rtabmap_ros_generate_messages_check_deps_MapGraph
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target stereo_odometry[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target rgbdicp_odometry[0m
+Generating reconfiguration files for Camera in rtabmap_ros
+[35m[1mScanning dependencies of target icp_odometry[0m
+[35m[1mScanning dependencies of target rgbd_odometry[0m
+Wrote header file in /home/aadityacr7/gsoc_2018/devel/.private/rtabmap_ros/include/rtabmap_ros/CameraConfig.h
+[35m[1mScanning dependencies of target rtabmap_ros_generate_messages_py[0m
+[35m[1mScanning dependencies of target rtabmap[0m
+[35m[1mScanning dependencies of target rtabmap_ros_generate_messages_eus[0m
+[  2%] [34m[1mGenerating EusLisp code from rtabmap_ros/Link.msg[0m
+[  2%] [34m[1mGenerating Python from MSG rtabmap_ros/Link[0m
+[  2%] Built target rtabmap_ros_gencfg
+[  3%] [34m[1mGenerating Python from MSG rtabmap_ros/NodeData[0m
+[  3%] [34m[1mGenerating EusLisp code from rtabmap_ros/NodeData.msg[0m
+[  4%] [34m[1mGenerating EusLisp code from rtabmap_ros/OdomInfo.msg[0m
+[  4%] [32mBuilding CXX object CMakeFiles/rgbdicp_odometry.dir/src/RGBDICPOdometryNode.cpp.o[0m
+make[2]: *** No rule to make target '/opt/ros/kinetic/lib/libfreenect.so', needed by '/home/aadityacr7/gsoc_2018/devel/.private/rtabmap_ros/lib/rtabmap_ros/rtabmap'.  Stop.
+make[2]: *** No rule to make target '/opt/ros/kinetic/lib/libfreenect.so', needed by '/home/aadityacr7/gsoc_2018/devel/.private/rtabmap_ros/lib/rtabmap_ros/rgbdicp_odometry'.  Stop.
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** No rule to make target '/opt/ros/kinetic/lib/libfreenect.so', needed by '/home/aadityacr7/gsoc_2018/devel/.private/rtabmap_ros/lib/rtabmap_ros/stereo_odometry'.  Stop.
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** No rule to make target '/opt/ros/kinetic/lib/libfreenect.so', needed by '/home/aadityacr7/gsoc_2018/devel/.private/rtabmap_ros/lib/rtabmap_ros/icp_odometry'.  Stop.
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** No rule to make target '/opt/ros/kinetic/lib/libfreenect.so', needed by '/home/aadityacr7/gsoc_2018/devel/.private/rtabmap_ros/lib/rtabmap_ros/rgbd_odometry'.  Stop.
+make[2]: *** Waiting for unfinished jobs....
+[  4%] [32mBuilding CXX object CMakeFiles/rgbd_odometry.dir/src/RGBDOdometryNode.cpp.o[0m
+[  5%] [34m[1mGenerating Python from MSG rtabmap_ros/OdomInfo[0m
+[  5%] [32mBuilding CXX object CMakeFiles/icp_odometry.dir/src/ICPOdometryNode.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/rtabmap.dir/src/CoreNode.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/stereo_odometry.dir/src/StereoOdometryNode.cpp.o[0m
+[  7%] [34m[1mGenerating EusLisp code from rtabmap_ros/KeyPoint.msg[0m
+[  7%] [34m[1mGenerating EusLisp code from rtabmap_ros/RGBDImage.msg[0m
+[  8%] [34m[1mGenerating Python from MSG rtabmap_ros/KeyPoint[0m
+[  9%] [34m[1mGenerating EusLisp code from rtabmap_ros/MapGraph.msg[0m
+[  9%] [34m[1mGenerating EusLisp code from rtabmap_ros/Info.msg[0m
+[  9%] [34m[1mGenerating Python from MSG rtabmap_ros/RGBDImage[0m
+[ 10%] [34m[1mGenerating EusLisp code from rtabmap_ros/MapData.msg[0m
+[ 10%] [34m[1mGenerating EusLisp code from rtabmap_ros/UserData.msg[0m
+[ 11%] [34m[1mGenerating EusLisp code from rtabmap_ros/Point2f.msg[0m
+[ 12%] [34m[1mGenerating EusLisp code from rtabmap_ros/Point3f.msg[0m
+[ 13%] [34m[1mGenerating Python from MSG rtabmap_ros/MapGraph[0m
+[ 13%] [34m[1mGenerating EusLisp code from rtabmap_ros/Goal.msg[0m
+[ 14%] [34m[1mGenerating EusLisp code from rtabmap_ros/PublishMap.srv[0m
+[ 14%] [34m[1mGenerating Python from MSG rtabmap_ros/Info[0m
+[ 15%] [34m[1mGenerating EusLisp code from rtabmap_ros/SetGoal.srv[0m
+[ 15%] [34m[1mGenerating EusLisp code from rtabmap_ros/GetMap.srv[0m
+[ 17%] [34m[1mGenerating Python from MSG rtabmap_ros/MapData[0m
+[ 17%] [34m[1mGenerating EusLisp code from rtabmap_ros/ResetPose.srv[0m
+[ 18%] [34m[1mGenerating EusLisp code from rtabmap_ros/SetLabel.srv[0m
+[ 19%] [34m[1mGenerating Python from MSG rtabmap_ros/UserData[0m
+[ 19%] [34m[1mGenerating EusLisp manifest code for rtabmap_ros[0m
+[ 20%] [34m[1mGenerating EusLisp code from rtabmap_ros/ListLabels.srv[0m
+[ 20%] [34m[1mGenerating Python from MSG rtabmap_ros/Point2f[0m
+[ 21%] [34m[1mGenerating Python from MSG rtabmap_ros/Point3f[0m
+[ 21%] [34m[1mGenerating Python from MSG rtabmap_ros/Goal[0m
+[ 22%] [34m[1mGenerating Python code from SRV rtabmap_ros/PublishMap[0m
+[ 22%] [34m[1mGenerating Python code from SRV rtabmap_ros/SetGoal[0m
+[ 23%] [34m[1mGenerating Python code from SRV rtabmap_ros/GetMap[0m
+[ 23%] [34m[1mGenerating Python code from SRV rtabmap_ros/ResetPose[0m
+[ 24%] [34m[1mGenerating Python code from SRV rtabmap_ros/SetLabel[0m
+[ 25%] [34m[1mGenerating Python code from SRV rtabmap_ros/ListLabels[0m
+[ 25%] [34m[1mGenerating Python msg __init__.py for rtabmap_ros[0m
+[35m[1mScanning dependencies of target rtabmap_ros_generate_messages_lisp[0m
+[ 26%] [34m[1mGenerating Lisp code from rtabmap_ros/Link.msg[0m
+[ 27%] [34m[1mGenerating Python srv __init__.py for rtabmap_ros[0m
+[ 27%] [34m[1mGenerating Lisp code from rtabmap_ros/NodeData.msg[0m
+[ 27%] Built target rtabmap_ros_generate_messages_py
+[35m[1mScanning dependencies of target rtabmap_ros_generate_messages_cpp[0m
+[ 28%] [34m[1mGenerating C++ code from rtabmap_ros/Link.msg[0m
+[ 29%] [34m[1mGenerating Lisp code from rtabmap_ros/OdomInfo.msg[0m
+[ 29%] [34m[1mGenerating Lisp code from rtabmap_ros/KeyPoint.msg[0m
+[ 29%] [34m[1mGenerating C++ code from rtabmap_ros/NodeData.msg[0m
+[ 30%] [34m[1mGenerating Lisp code from rtabmap_ros/RGBDImage.msg[0m
+[ 30%] [34m[1mGenerating Lisp code from rtabmap_ros/MapGraph.msg[0m
+[ 31%] [34m[1mGenerating Lisp code from rtabmap_ros/Info.msg[0m
+[ 32%] [34m[1mGenerating C++ code from rtabmap_ros/OdomInfo.msg[0m
+[ 34%] [34m[1mGenerating Lisp code from rtabmap_ros/MapData.msg[0m
+[ 34%] [34m[1mGenerating Lisp code from rtabmap_ros/UserData.msg[0m
+[ 34%] [34m[1mGenerating C++ code from rtabmap_ros/KeyPoint.msg[0m
+[ 35%] [34m[1mGenerating Lisp code from rtabmap_ros/Point2f.msg[0m
+[ 35%] Built target rtabmap_ros_generate_messages_eus
+[35m[1mScanning dependencies of target rtabmap_ros_generate_messages_nodejs[0m
+[ 36%] [34m[1mGenerating Javascript code from rtabmap_ros/Link.msg[0m
+[ 36%] [34m[1mGenerating Lisp code from rtabmap_ros/Point3f.msg[0m
+[ 36%] [34m[1mGenerating Javascript code from rtabmap_ros/NodeData.msg[0m
+[ 37%] [34m[1mGenerating Lisp code from rtabmap_ros/Goal.msg[0m
+[ 38%] [34m[1mGenerating C++ code from rtabmap_ros/RGBDImage.msg[0m
+[ 39%] [34m[1mGenerating Javascript code from rtabmap_ros/OdomInfo.msg[0m
+[ 39%] [34m[1mGenerating Lisp code from rtabmap_ros/PublishMap.srv[0m
+[ 40%] [34m[1mGenerating Javascript code from rtabmap_ros/KeyPoint.msg[0m
+[ 41%] [34m[1mGenerating Lisp code from rtabmap_ros/SetGoal.srv[0m
+[ 41%] [34m[1mGenerating Javascript code from rtabmap_ros/RGBDImage.msg[0m
+CMakeFiles/Makefile2:294: recipe for target 'CMakeFiles/rgbdicp_odometry.dir/all' failed
+make[1]: *** [CMakeFiles/rgbdicp_odometry.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/rgbd_odometry.dir/all] Error 2
+CMakeFiles/Makefile2:368: recipe for target 'CMakeFiles/rgbd_odometry.dir/all' failed
+[ 42%] [34m[1mGenerating C++ code from rtabmap_ros/MapGraph.msg[0m
+[ 43%] [34m[1mGenerating Javascript code from rtabmap_ros/MapGraph.msg[0m
+[ 44%] [34m[1mGenerating Lisp code from rtabmap_ros/GetMap.srv[0m
+[ 44%] [34m[1mGenerating C++ code from rtabmap_ros/Info.msg[0m
+CMakeFiles/Makefile2:405: recipe for target 'CMakeFiles/rtabmap.dir/all' failed
+make[1]: *** [CMakeFiles/rtabmap.dir/all] Error 2
+[ 44%] [34m[1mGenerating Javascript code from rtabmap_ros/Info.msg[0m
+[ 45%] [34m[1mGenerating C++ code from rtabmap_ros/MapData.msg[0m
+[ 46%] [34m[1mGenerating Javascript code from rtabmap_ros/MapData.msg[0m
+[ 46%] [34m[1mGenerating Lisp code from rtabmap_ros/ResetPose.srv[0m
+[ 46%] [34m[1mGenerating Javascript code from rtabmap_ros/UserData.msg[0m
+CMakeFiles/Makefile2:2835: recipe for target 'CMakeFiles/icp_odometry.dir/all' failed
+make[1]: *** [CMakeFiles/icp_odometry.dir/all] Error 2
+[ 47%] [34m[1mGenerating Javascript code from rtabmap_ros/Point2f.msg[0m
+[ 47%] [34m[1mGenerating Javascript code from rtabmap_ros/Point3f.msg[0m
+[ 48%] [34m[1mGenerating Lisp code from rtabmap_ros/SetLabel.srv[0m
+CMakeFiles/Makefile2:331: recipe for target 'CMakeFiles/stereo_odometry.dir/all' failed
+make[1]: *** [CMakeFiles/stereo_odometry.dir/all] Error 2
+[ 48%] [34m[1mGenerating Lisp code from rtabmap_ros/ListLabels.srv[0m
+[ 50%] [34m[1mGenerating Javascript code from rtabmap_ros/Goal.msg[0m
+[ 51%] [34m[1mGenerating Javascript code from rtabmap_ros/PublishMap.srv[0m
+[ 51%] [34m[1mGenerating Javascript code from rtabmap_ros/SetGoal.srv[0m
+[ 51%] [34m[1mGenerating C++ code from rtabmap_ros/UserData.msg[0m
+[ 52%] [34m[1mGenerating Javascript code from rtabmap_ros/GetMap.srv[0m
+[ 53%] [34m[1mGenerating C++ code from rtabmap_ros/Point2f.msg[0m
+[ 53%] Built target rtabmap_ros_generate_messages_lisp
+[ 53%] [34m[1mGenerating C++ code from rtabmap_ros/Point3f.msg[0m
+[ 53%] [34m[1mGenerating Javascript code from rtabmap_ros/ResetPose.srv[0m
+[ 54%] [34m[1mGenerating C++ code from rtabmap_ros/Goal.msg[0m
+[ 55%] [34m[1mGenerating Javascript code from rtabmap_ros/SetLabel.srv[0m
+[ 55%] [34m[1mGenerating Javascript code from rtabmap_ros/ListLabels.srv[0m
+[ 56%] [34m[1mGenerating C++ code from rtabmap_ros/PublishMap.srv[0m
+[ 56%] [34m[1mGenerating C++ code from rtabmap_ros/SetGoal.srv[0m
+[ 57%] [34m[1mGenerating C++ code from rtabmap_ros/GetMap.srv[0m
+[ 57%] Built target rtabmap_ros_generate_messages_nodejs
+[ 57%] [34m[1mGenerating C++ code from rtabmap_ros/ResetPose.srv[0m
+[ 58%] [34m[1mGenerating C++ code from rtabmap_ros/SetLabel.srv[0m
+[ 58%] [34m[1mGenerating C++ code from rtabmap_ros/ListLabels.srv[0m
+[ 58%] Built target rtabmap_ros_generate_messages_cpp
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

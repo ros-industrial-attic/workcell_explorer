@@ -1,0 +1,6 @@
+devel_space: /home/aadityacr7/gsoc_2018/devel
+install: false
+install_space: /home/aadityacr7/gsoc_2018/install
+profile: default
+source_space: /home/aadityacr7/gsoc_2018/src
+workspace: /home/aadityacr7/gsoc_2018
