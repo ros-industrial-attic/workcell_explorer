@@ -13,6 +13,35 @@ ___
 
 ___
 
+## Installation
+
+1. Install wstool in order manage the repos inside the workspace
+
+~~~
+sudo apt install python-wstool
+~~~
+
+2. Set up catkin workspace with required packages
+
+~~~
+cd /path/to/catkin_ws 
+wstool init src https://raw.githubusercontent.com/ros-industrial/workcell_explorer/master/workcell_explorer.rosinstall
+rosdep install --ignore-src --from-paths src
+~~~
+
+3. Finally, to build:
+
+~~~
+catkin build
+~~~
+
+4. Source the workspace 
+
+~~~
+source devel/setup.bash
+~~~
+___
+
 ## Usage
 
 1. Launch Gazebo world + robot mounted with a Kinect camera
