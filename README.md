@@ -49,4 +49,7 @@ ___
 
 ___
 
+## Documentation tasks
+
+1. Create a blog post to summarise Kinect fusion and mention how it's going to be used with TSDF for the project using [yak](https://github.com/AustinDeric/yak) library. 
 

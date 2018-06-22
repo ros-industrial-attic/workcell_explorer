@@ -1,0 +1,10 @@
+# workcell_explorer package 
+- git: {local-name: workcell_explorer, uri: 'https://github.com/ros-industrial/workcell_explorer.git', version: master}
+
+# industrial_core package 
+- git: {local-name: industrial_core, uri: 'https://github.com/ros-industrial/industrial_core.git', version: kinetic-devel}
+
+# universal_robot package 
+- git: {local-name: universal_robot, uri: 'https://github.com/ros-industrial/universal_robot.git', version: kinetic-devel}
+
+
