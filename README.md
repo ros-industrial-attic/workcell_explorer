@@ -56,6 +56,30 @@ roslaunch myworkcell_support workcell_gazebo.launch
 roslaunch myworkcell_moveit_config myworkcell_planning_execution.launch.xml
 ~~~
 
+3. Launch the TSDF reconstruction node in the yak package
+
+~~~
+roslaunch yak launch_gazebo_robot.launch
+~~~
+
+4. Start the Octomap server 
+
+~~~
+roslaunch nbv_planner octomap_mapping.launch
+~~~
+
+5. Start the exploration process 
+
+~~~
+rosrun nbv_planner exploration_controller_node
+~~~
+
+6. ROS Service to extract mesh after deciding that the reconstruction is good enough.
+
+~~~
+rosservice call /get_mesh
+~~~
+
 ___
 
 ## Current Issues/ Pending tasks 
@@ -67,12 +91,15 @@ ___
 
 2. Remove unncessary files from the package. 
 
-3. Add .rosinstall file instead of submodules
 ___
 
 ## Upcoming Tasks
 
 1. Integrate the [yak](https://github.com/AustinDeric/yak) library with the workflow. YAK library uses Kinect fusion with Truncated Signed Distance Fields(TSDFs) used for created a probabilistic representation of solid surfaces in 3-D space. 
+
+    1. Integrat reconstruction node and octomap server node with given package.[DONE] 
+    2. Integrate the `exploration_controller_node` with the given package.  
+
 
 2. Utilise the [gl_depth_sim package](https://github.com/Jmeyer1292/gl_depth_sim) to simulate organised depth camera data and test out the YAK package on the collected data. 
 
