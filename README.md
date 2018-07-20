@@ -89,23 +89,29 @@ ___
 + Problem- Octomap is flipped 90 degrees with respect to the view of the Kinect. 
 + Potential solution- Issues with the URDF file. 
 
-2. Remove unncessary files from the package. 
 
+2. Add .rosinstall file instead of submodules [DONE]
 ___
 
 ## Upcoming Tasks
 
-1. Integrate the [yak](https://github.com/AustinDeric/yak) library with the workflow. YAK library uses Kinect fusion with Truncated Signed Distance Fields(TSDFs) used for created a probabilistic representation of solid surfaces in 3-D space. 
+1. Integrate the [yak](https://github.com/AustinDeric/yak) library with the workflow. YAK library uses Kinect fusion with Truncated Signed Distance Fields(TSDFs) used for created a probabilistic representation of solid surfaces in 3-D space [DONE]. 
 
-    1. Integrat reconstruction node and octomap server node with given package.[DONE] 
-    2. Integrate the `exploration_controller_node` with the given package.  
+    1. Integrate reconstruction node and octomap server node with given package.[DONE] 
+    2. Integrate the `exploration_controller_node` with the given package [DONE].  
 
 
 2. Utilise the [gl_depth_sim package](https://github.com/Jmeyer1292/gl_depth_sim) to simulate organised depth camera data and test out the YAK package on the collected data. 
+
++ This is to avoid all problems regarding flipped octomaps which could be primarily created due to Gazebo and the way it represents simulated objects. 
 
 ___
 
 ## Documentation tasks
 
-1. Create a blog post to summarise Kinect fusion and mention how it's going to be used with TSDF for the project using [yak](https://github.com/AustinDeric/yak) library. 
+1. Create a blog post to talk about GSoC in general and introduce the Robot WorkCell Exploration project. 
+
++ [Link to blog post](https://aadityasaraiya.github.io//blog/2018/07/16/GSoC_2018_with_ROS_Industrial/)
+
+2. Create a blog post to summarise Kinect fusion and mention how it's going to be used with TSDF for the project using [yak](https://github.com/AustinDeric/yak) library. Explain the use of the `nbv_planner` and the `exploration_node` files for the process of workcell exploration.
 
