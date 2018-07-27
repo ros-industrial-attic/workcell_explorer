@@ -7,4 +7,6 @@
 # universal_robot package 
 - git: {local-name: universal_robot, uri: 'https://github.com/ros-industrial/universal_robot.git', version: kinetic-devel}
 
+# yak_edit package 
 
+- git: {local-name: yak, uri: 'https://github.com/aadityasaraiya/yak_edit.git', version: master}
