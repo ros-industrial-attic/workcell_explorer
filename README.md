@@ -89,8 +89,8 @@ ___
 + Problem- Octomap is flipped 90 degrees with respect to the view of the Kinect. 
 + Potential solution- Issues with the URDF file. 
 
-2. Remove unncessary files from the package. 
 
+2. Add .rosinstall file instead of submodules [DONE]
 ___
 ## Current challenges 
 
@@ -104,8 +104,15 @@ ___
  
 + A flipped redundant octomap is generated due to what seems like delays in receiving TF transforms.
 
+<<<<<<< HEAD
 + Are Gazebo simulated objects may give unsatisfiable results while applying ICP. This is yet to be understood/ confirmed. 
 
+=======
+1. Integrate the [yak](https://github.com/AustinDeric/yak) library with the workflow. YAK library uses Kinect fusion with Truncated Signed Distance Fields(TSDFs) used for created a probabilistic representation of solid surfaces in 3-D space [DONE]. 
+
+    1. Integrate reconstruction node and octomap server node with given package.[DONE] 
+    2. Integrate the `exploration_controller_node` with the given package [DONE].  
+>>>>>>> a50d10cb5aa2f76151942bf79b5267765bd1d472
 
 ## Upcoming Tasks
 
@@ -113,10 +120,13 @@ ___
 
 2. Utilise the [gl_depth_sim package](https://github.com/Jmeyer1292/gl_depth_sim) to simulate organised depth camera data and test out the YAK package on the collected data. 
 
++ This is to avoid all problems regarding flipped octomaps which could be primarily created due to Gazebo and the way it represents simulated objects. 
+
 ___
 
 ## Documentation tasks
 
+<<<<<<< HEAD
 1. Create a blog post to introduce the Google Summer of Project in general and introduce the goals of the Robot WorkCell Discovery repository. [DONE]
 
     + [Link to blog post](https://aadityasaraiya.github.io//blog/2018/07/16/GSoC_2018_with_ROS_Industrial/)  
@@ -130,4 +140,11 @@ ___
 3. Make a list of all files which had to be changed which can help in quicker integration of the [yak package](https://github.com/AustinDeric/yak) for new users. 
 
 ___ 
+=======
+1. Create a blog post to talk about GSoC in general and introduce the Robot WorkCell Exploration project. 
+
++ [Link to blog post](https://aadityasaraiya.github.io//blog/2018/07/16/GSoC_2018_with_ROS_Industrial/)
+
+2. Create a blog post to summarise Kinect fusion and mention how it's going to be used with TSDF for the project using [yak](https://github.com/AustinDeric/yak) library. Explain the use of the `nbv_planner` and the `exploration_node` files for the process of workcell exploration.
+>>>>>>> a50d10cb5aa2f76151942bf79b5267765bd1d472
 
