@@ -1,5 +1,5 @@
 # workcell_explorer package 
-- git: {local-name: workcell_explorer, uri: 'https://github.com/ros-industrial/workcell_explorer.git', version: master}
+- git: {local-name: workcell_explorer, uri: 'https://github.com/ros-industrial/workcell_explorer.git', version: kf_branch1}
 
 # industrial_core package 
 - git: {local-name: industrial_core, uri: 'https://github.com/ros-industrial/industrial_core.git', version: kinetic-devel}
