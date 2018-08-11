@@ -26,15 +26,10 @@ sudo apt install python-wstool
 
 ~~~
 cd /path/to/catkin_ws 
-~~~
 
-~~~
 wstool init src https://raw.githubusercontent.com/ros-industrial/workcell_explorer/kf_branch1/workcell_explorer.rosinstall
-~~~
 
-~~~
 rosdep install --ignore-src --from-paths src
-~~~
 
 3. Finally, to build:
 
