@@ -1,6 +1,7 @@
 **Google Summer of Code 2018 - Robot Workcell Discovery**
 
-Repository for GSoC 2018 focusing on creation of a ROS package for Robotic Workcell exploration. The project is being done under the mentorship of Levi Armstrong and Alex Goins from [SwRI](https://www.swri.org/) and [ROS Industrial](https://rosindustrial.org/).
+Repository for GSoC 2018 focusing on creation of a ROS package for Robotic Workcell exploration. The project is being done under the mentorship of [Levi Armstrong](https://github.com/Levi-Armstrong) and [Alex Goins](https://github.com/akgoins from [SwRI](https://www.swri.org/) and [ROS Industrial](https://rosindustrial.org/).
+
 ___
 
 ## Relevant Links
@@ -15,7 +16,7 @@ ___
 
 ## Installation
 
-1. Install wstool in order manage the repos inside the workspace
+1. Install wstool in order manage the packages inside the workspace
 
 ~~~
 sudo apt install python-wstool
@@ -25,7 +26,13 @@ sudo apt install python-wstool
 
 ~~~
 cd /path/to/catkin_ws 
-wstool init src https://raw.githubusercontent.com/ros-industrial/workcell_explorer/master/workcell_explorer.rosinstall
+~~~
+
+~~~
+wstool init src https://raw.githubusercontent.com/ros-industrial/workcell_explorer/kf_branch1/workcell_explorer.rosinstall
+~~~
+
+~~~
 rosdep install --ignore-src --from-paths src
 ~~~
 
@@ -80,18 +87,38 @@ rosrun nbv_planner exploration_controller_node
 rosservice call /get_mesh
 ~~~
 
+**Note**- All these commands need to be run on a separate terminal. Run the `source devel/setup.bash` each time. 
 ___
 
-## Current Issues/ Pending tasks 
+## Phase 1- 27th March 2018- 10th June 2018
 
-1. **Flipped Octomap**
+**Documentation**
 
-+ Problem- Octomap is flipped 90 degrees with respect to the view of the Kinect. 
-+ Potential solution- Issues with the URDF file. 
+1. **Blog post 1**: [Introduction to GSoC 2018 with ROS Industrial](https://aadityasaraiya.github.io//blog/2018/07/16/GSoC_2018_with_ROS_Industrial/)
 
-
-2. Add .rosinstall file instead of submodules [DONE]
 ___
+
+## Phase 2- 11th June 2018- 9th July 2018 
+
+**Documentation**
+
+1. **Blog Post 2**: [Kinect Fusion for 3-D reconstruction- Part 1](https://aadityasaraiya.github.io//blog/2018/08/07/Kinect_Fusion_for_3-D_reconstruction_Part_1/)
+
+2. **Blog Post 3**: [Kinect Fusion for 3-D reconstruction- Part 2](https://aadityasaraiya.github.io//blog/2018/08/08/Kinect_Fusion_for_3-D_reconstruction_Part_2/)
+
+3. **Wiki 1**: [Summary of the 'KinectFusion: Real Time Dense Surface Mapping and Tracking' paper](https://github.com/ros-industrial/workcell_explorer/wiki/Summary-of-the-'KinectFusion:-Real-Time-Dense-Surface-Mapping-and-Tracking'-paper)
+
+___
+
+## Phase 3- 9th July 2018- 14th August 2018 
+
+**Documentation**
+
+4. **Blog Post 4**- Link pending 
+
+5. **Blog Post 5**- Link pending 
+___
+
 ## Current challenges 
 
 1. 1. [Issue 1](https://github.com/AustinDeric/yak/issues/21)- Observing minimal robot motion while it's trying to explore the Next-Best views. 
@@ -100,19 +127,6 @@ ___
  
 + Less exploration is leading to a very sparsely generated mesh which is improper.  
 
-2. [Issue 2](https://github.com/AustinDeric/yak/issues/20)- Extra octomap being created due to TF issues
- 
-+ A flipped redundant octomap is generated due to what seems like delays in receiving TF transforms.
-
-<<<<<<< HEAD
-+ Are Gazebo simulated objects may give unsatisfiable results while applying ICP. This is yet to be understood/ confirmed. 
-
-=======
-1. Integrate the [yak](https://github.com/AustinDeric/yak) library with the workflow. YAK library uses Kinect fusion with Truncated Signed Distance Fields(TSDFs) used for created a probabilistic representation of solid surfaces in 3-D space [DONE]. 
-
-    1. Integrate reconstruction node and octomap server node with given package.[DONE] 
-    2. Integrate the `exploration_controller_node` with the given package [DONE].  
->>>>>>> a50d10cb5aa2f76151942bf79b5267765bd1d472
 
 ## Upcoming Tasks
 
@@ -120,31 +134,9 @@ ___
 
 2. Utilise the [gl_depth_sim package](https://github.com/Jmeyer1292/gl_depth_sim) to simulate organised depth camera data and test out the YAK package on the collected data. 
 
-+ This is to avoid all problems regarding flipped octomaps which could be primarily created due to Gazebo and the way it represents simulated objects. 
-
-___
-
-## Documentation tasks
-
-<<<<<<< HEAD
-1. Create a blog post to introduce the Google Summer of Project in general and introduce the goals of the Robot WorkCell Discovery repository. [DONE]
-
-    + [Link to blog post](https://aadityasaraiya.github.io//blog/2018/07/16/GSoC_2018_with_ROS_Industrial/)  
-
-2. Create series of blog posts to explain the following 
-
-    + Create a blog post to summarise Kinect fusion uptil TSDF
-    + Explain how TSDF is used for fusion and explain the process of raycasting. 
-    + Explain the use of the `Next Best-View planner` and the `exploration_node`.
-
 3. Make a list of all files which had to be changed which can help in quicker integration of the [yak package](https://github.com/AustinDeric/yak) for new users. 
 
-___ 
-=======
-1. Create a blog post to talk about GSoC in general and introduce the Robot WorkCell Exploration project. 
 
-+ [Link to blog post](https://aadityasaraiya.github.io//blog/2018/07/16/GSoC_2018_with_ROS_Industrial/)
 
-2. Create a blog post to summarise Kinect fusion and mention how it's going to be used with TSDF for the project using [yak](https://github.com/AustinDeric/yak) library. Explain the use of the `nbv_planner` and the `exploration_node` files for the process of workcell exploration.
->>>>>>> a50d10cb5aa2f76151942bf79b5267765bd1d472
+ 
 

@@ -37,7 +37,7 @@
   </link>
 
 <!-- Define a camera frame (used to publish camera information -->
-  <link name="camera_frame"/>
+<!--  <link name="camera_frame"/> -->
 
 <!-- Define a base_link for the UR5 robot -->
   <link name="base_link">
@@ -148,12 +148,14 @@
     </inertial>
   </link>
 
-  <joint name="wrist_1_joint" type="revolute">
+ <joint name="wrist_1_joint" type="revolute"> 
+<!-- <joint name="wrist_1_joint" type="fixed"> -->
     <parent link="forearm_link"/>
     <child link="wrist_1_link"/>
     <origin rpy="0.0 1.57079632679 0.0" xyz="0.0 0.0 0.39225"/>
     <axis xyz="0 1 0"/>
-    <limit effort="28.0" lower="-3.14159265359" upper="3.14159265359" velocity="3.2"/>
+ <!--   <limit effort="28.0" lower="-3.14159265359" upper="3.14159265359" velocity="3.2"/>  -->
+    <limit effort="28.0" lower="-0.75" upper="0.75" velocity="3.2"/>
     <dynamics damping="0.0" friction="0.0"/>
   </joint>
   <link name="wrist_1_link">
@@ -177,7 +179,8 @@
     </inertial>
   </link>
 
-  <joint name="wrist_2_joint" type="revolute">
+<joint name="wrist_2_joint" type="revolute"> 
+<!--  <joint name="wrist_2_joint" type="fixed"> -->
     <parent link="wrist_1_link"/>
     <child link="wrist_2_link"/>
     <origin rpy="0.0 0.0 0.0" xyz="0.0 0.093 0.0"/>
@@ -207,12 +210,14 @@
     </inertial>
   </link>
 
-  <joint name="wrist_3_joint" type="revolute">
+<joint name="wrist_3_joint" type="revolute"> 
+<!-- <joint name="wrist_3_joint" type="fixed"> -->
     <parent link="wrist_2_link"/>
     <child link="wrist_3_link"/>
     <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.09465"/>
     <axis xyz="0 1 0"/>
-    <limit effort="28.0" lower="-3.14159265359" upper="3.14159265359" velocity="3.2"/>
+<!--    <limit effort="28.0" lower="-3.14159265359" upper="3.14159265359" velocity="3.2"/> -->
+    <limit effort="28.0" lower="-0.314" upper="+0.314" velocity="3.2"/>
     <dynamics damping="0.0" friction="0.0"/>
   </joint>
   <link name="wrist_3_link">
@@ -276,6 +281,7 @@
       <mechanicalReduction>1</mechanicalReduction>
     </actuator>
   </transmission>
+
   <transmission name="wrist_1_trans">
     <type>transmission_interface/SimpleTransmission</type>
     <joint name="wrist_1_joint">
@@ -303,6 +309,7 @@
       <mechanicalReduction>1</mechanicalReduction>
     </actuator>
   </transmission>
+
   <!-- nothing to do here at the moment -->
   <!-- ROS base_link to UR 'Base' Coordinates transform -->
 
@@ -340,13 +347,13 @@
         izz="0.001" />
     </inertial>
     <visual>
-      <origin xyz=" 0 0 0 " rpy="0 0 0" />
+ <origin xyz=" 0 -0.03 0 " rpy="0 0 0" />  
       <geometry>
         <mesh filename= "file:///home/aadityacr7/ros_trial/src/industrial_training/exercises/3.3/src/myworkcell_support/meshes/sensors/kinect.dae"/>
       </geometry>
     </visual>
     <collision>
-      <origin xyz="0.0 0.0 0.0" rpy="0 0 0" />
+ <origin xyz="0.0 -0.03 0.0" rpy="0 0 0" />    
       <geometry>
         <box size="0.0730 .2760 0.0720"/>
       </geometry>
@@ -355,7 +362,8 @@
   </link>
   
   <joint name="camera_depth_joint" type="fixed">
-    <origin xyz="0 0.011 0" rpy="0 0 0" />
+   <origin xyz="0 -0.012 0" rpy="0 0 -1.5707" />  
+ <!--   <origin xyz="0 0.011 0" rpy="0 0 0" />  -->
     <parent link="camera_link" />
     <child link="camera_depth_frame" />
   </joint>
@@ -387,7 +395,8 @@
   </link>
 
   <joint name="camera_rgb_joint" type="fixed">
-    <origin xyz="0 -0.012 0" rpy="0 0 0" />
+   <origin xyz="0 -0.012 0" rpy="0 0 -1.5707" />  
+<!--    <origin xyz="0 -0.012 0" rpy="0 0 0" /> -->
     <parent link="camera_link" />
     <child link="camera_rgb_frame" />
   </joint>
@@ -470,11 +479,16 @@
     <child link="table"/>
     <origin rpy="0 0 0" xyz="0 0 0.5"/>
   </joint>
+
+<!-- 
   <joint name="world_to_camera" type="fixed">
     <parent link="world"/>
     <child link="camera_frame"/>
     <origin rpy="0 3.14159 0" xyz="-0.25 -0.5 1.25"/>
   </joint>
+
+-->
+
   <joint name="table_to_robot" type="fixed">
     <parent link="table"/>
     <child link="base_link"/>

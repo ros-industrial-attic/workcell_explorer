@@ -5,8 +5,8 @@
 
 <!--
   <node name="rviz" pkg="rviz" type="rviz" if="$(arg gui)"/>
-
 -->
+
 
 <!--  
  <node pkg="openni_camera" type="openni_node" name="openni_camera" output="screen" respawn="true" >
@@ -27,7 +27,6 @@
    <node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher" >
      <param name="use_gui" value="True"/>
    </node>
-
 -->
 
 </launch>
