@@ -117,7 +117,7 @@ ___
 
 **Issues**
 
-As this project involves different packages, there have been multiple issues created in separate repos. All the issues have been collected here in order to get an understanding on how some of the problems were tackled/solved. 
+As this project involves different packages, multiple issues have been created in separate repos. All the issues have been collected here in order to get an understanding on how some of the problems were tackled/solved. 
 ___
 
 **workcell_explorer** repo
@@ -133,7 +133,7 @@ ___
 
 + [Multiple octomap views generated and octomap flipped](https://github.com/AustinDeric/yak/issues/20)
 
-+ [No robot motion after relaxing camera pose constraints](https://github.com/AustinDeric/yak/issues/21)
++ [Lack of robot motion after relaxing camera pose constraints](https://github.com/AustinDeric/yak/issues/21)
 ___
 
 **gl_depth_sim** repo
@@ -141,5 +141,47 @@ ___
 + [Use gl_depth_sim instead of Gazebo](https://github.com/Jmeyer1292/gl_depth_sim/issues/1)
 ___
 
-**Limitations and Future work**
+## Related questions on ROS Answers
+
+During the community bonding period and throughout the GSoC project, **ROS Answers** was actively used to clear doubts. The following links can be used for reference. 
+
+**Q1** [Kinect sensor unable to see objects placed in front of it](https://answers.ros.org/question/290142/kinect-sensor-unable-to-see-objects-placed-in-front-of-it/)
+
+**Q2** [Unable to visualize .dae mesh files in RViz](https://answers.ros.org/question/290747/unable-to-visualize-dae-mesh-files-in-rviz/)
+
+**Q3** [Error in Planning group with MoveIt! Setup Assistant](https://answers.ros.org/question/290983/error-in-planning-group-with-moveit-setup-assistant/)
+
+**Q4** [arm_controller/joint_trajectory topics not being displayed](https://answers.ros.org/question/292214/arm_controllerjoint_trajectory-topics-not-being-displayed/)
+
+**Q5** [TF has two or more unconnected trees](https://answers.ros.org/question/295359/tf-has-two-or-more-unconnected-trees/)
+
+**Q6** [The weight on position constraint for link is near zero. Setting to 1.0.](https://answers.ros.org/question/296620/the-weight-on-position-constraint-for-link-is-near-zero-setting-to-10/)
+___
+
+**Current limitations and Future work**
+
+1. When the TSDF reconstruction node is launched, multiple octomaps are generated in some cases. This directly points to the fact that the camera has lost tracking ability in the inital stages. It might lead to incorrect results in the future.
+
+**Potential Improvements**- The issue has been discussed here [Multiple octomap views generated and octomap flipped](https://github.com/AustinDeric/yak/issues/20). It hints that the issue is caused due to delays in TF publishing.
+
+2. When the exploration controller node is launched, the robot is able to explore a few of the poses from the list. However, after 1-2 motions, the robot lands into a tight/constrainted space and is not able to explore the space further. 
+
+**Potential Improvements**- The issue has been discussed here [Lack of robot motion after relaxing camera pose constraints](https://github.com/AustinDeric/yak/issues/21), which hints that further analysis on the reachability of the robot is needed in order to increase the probability of the robot moving to the pose. 
+
+3. The `full_cage` package consists of STL files of a cage/fenced area which can be used for simulation purposes. 
+
+**Potential Improvements**- The mechanical design of the cage needs to be modified to incorporate various other parts such as tool changers, positioner/rail and other associated parts specific to the robotic workcell for the task. 
+
+**Note**- To launch the cage model(stand-alone), use the following command:
+
+~~~
+roslaunch full_cage gazebo.launch
+~~~
+___
+
+
+
+
+
+
 

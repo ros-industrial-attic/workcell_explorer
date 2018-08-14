@@ -1,0 +1,74 @@
+<robot
+  name="full_cage">
+ 
+<!--
+<link name="world"/>
+
+-->
+
+  <link
+    name="cage">
+    <inertial>
+      <origin
+        xyz="0.67 -0.56 1"
+        rpy="0 0 0" />
+
+      <mass
+        value="238.982831853073" />
+
+      <inertia
+        ixx="170.12"
+        ixy="0"
+        ixz="0"
+        iyy="312.22"
+        iyz="0"
+        izz="181.92" />
+    </inertial>
+
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://full_cage/meshes/cage.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://full_cage/meshes/cage.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+<!--
+ <gazebo reference="cage">
+    <mu1>0</mu1>
+    <mu2>0</mu2>
+    <fdir1 value = "1 0 0"/>
+ <dynamics damping="1" />
+    <material>Gazebo/Yellow</material>
+    <turnGravityOff>false</turnGravityOff>
+  </gazebo>
+
+-->
+
+<!--
+  <joint name="world_to_cage" type="fixed">
+    <parent link="world"/>
+    <child link="cage"/>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+  </joint>
+
+-->
+
+</robot>
