@@ -1,6 +1,6 @@
 **Google Summer of Code 2018 - Robot Workcell Discovery**
 
-Repository for GSoC 2018 focusing on creation of a ROS package for Robotic Workcell exploration. The project is being done under the mentorship of [Levi Armstrong](https://github.com/Levi-Armstrong) and [Alex Goins](https://github.com/akgoins from [SwRI](https://www.swri.org/) and [ROS Industrial](https://rosindustrial.org/).
+Repository for GSoC 2018 focusing on creation of a ROS package for Robotic Workcell exploration. The project is being done under the mentorship of [Levi Armstrong](https://github.com/Levi-Armstrong) and [Alex Goins](https://github.com/akgoins) from [SwRI](https://www.swri.org/) and [ROS Industrial](https://rosindustrial.org/).
 
 ___
 
@@ -145,17 +145,17 @@ ___
 
 During the community bonding period and throughout the GSoC project, **ROS Answers** was actively used to clear doubts. The following links can be used for reference. 
 
-**Q1** [Kinect sensor unable to see objects placed in front of it](https://answers.ros.org/question/290142/kinect-sensor-unable-to-see-objects-placed-in-front-of-it/)
+**Q1:** [Kinect sensor unable to see objects placed in front of it](https://answers.ros.org/question/290142/kinect-sensor-unable-to-see-objects-placed-in-front-of-it/)
 
-**Q2** [Unable to visualize .dae mesh files in RViz](https://answers.ros.org/question/290747/unable-to-visualize-dae-mesh-files-in-rviz/)
+**Q2:** [Unable to visualize .dae mesh files in RViz](https://answers.ros.org/question/290747/unable-to-visualize-dae-mesh-files-in-rviz/)
 
-**Q3** [Error in Planning group with MoveIt! Setup Assistant](https://answers.ros.org/question/290983/error-in-planning-group-with-moveit-setup-assistant/)
+**Q3:** [Error in Planning group with MoveIt! Setup Assistant](https://answers.ros.org/question/290983/error-in-planning-group-with-moveit-setup-assistant/)
 
-**Q4** [arm_controller/joint_trajectory topics not being displayed](https://answers.ros.org/question/292214/arm_controllerjoint_trajectory-topics-not-being-displayed/)
+**Q4:** [arm_controller/joint_trajectory topics not being displayed](https://answers.ros.org/question/292214/arm_controllerjoint_trajectory-topics-not-being-displayed/)
 
-**Q5** [TF has two or more unconnected trees](https://answers.ros.org/question/295359/tf-has-two-or-more-unconnected-trees/)
+**Q5:** [TF has two or more unconnected trees](https://answers.ros.org/question/295359/tf-has-two-or-more-unconnected-trees/)
 
-**Q6** [The weight on position constraint for link is near zero. Setting to 1.0.](https://answers.ros.org/question/296620/the-weight-on-position-constraint-for-link-is-near-zero-setting-to-10/)
+**Q6:** [The weight on position constraint for link is near zero. Setting to 1.0.](https://answers.ros.org/question/296620/the-weight-on-position-constraint-for-link-is-near-zero-setting-to-10/)
 ___
 
 **Current limitations and Future work**
