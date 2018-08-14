@@ -77,7 +77,9 @@ roslaunch nbv_planner octomap_mapping.launch
 rosrun nbv_planner exploration_controller_node
 ~~~
 
-6. ROS Service to extract mesh after deciding that the reconstruction is good enough.
+6. ROS Service to extract mesh after deciding that the reconstruction is good enough. 
+
+**Note**- Change the file location(for storing the mesh) in the `launch_gazebo_robot.launch` file. 
 
 ~~~
 rosservice call /get_mesh
